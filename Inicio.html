@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Seguros Master</title>
+<meta charset="UTF-8" />
+        <link href="./video-1.css" type="text/css" rel="stylesheet" />
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-background {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+	z-index: -1;
+}
+		$(document).ready(function(){
+	$("#video-background").on('ended', function(){
+		alert('El video ha finalizado!!!');
+	});
+});
+.botonescondido{
+z-index:-2;
+}
+</style>
+</head>
+    <body>
+        <iframe id="video-background" width="560" height="315" src="videoseguros.mp4" frameborder="0" allowfullscreen></iframe>
+	<a href ="index.html"><img src="BOTONinicio.png" width="100" height="60" autofocus> </a>
+<!--<a href= "index.html" class="boton_personalizado"><button type="button" value="Inicio"autofocus><center>Inicio</center></button></a>-->
+
+    </body>
+</html>

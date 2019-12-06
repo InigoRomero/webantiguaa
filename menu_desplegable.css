@@ -1,0 +1,394 @@
+* {
+list-style:none;
+text-decoration:none;
+margin:0;
+padding:0;  /* Evitar que los menus se desplacen a derecha */
+}
+  
+#contenedor {
+text-align: center;
+margin: 20px auto;  /* para centrar el div */
+}
+
+.desplegable {
+	position:fixed;
+     display: inline-block;   /* para centrar el menú en la pantalla  */
+}
+
+.desplegable li {
+     float:left;  /*  para que el menu sea horizontal, ordenado */
+}
+
+.desplegable li ul li {
+     float: none;  /* para que el menu se despliegue en vertical */
+}
+
+.desplegable li ul {
+     display:none;  /* el desplegable no es visible por defecto */
+}
+
+.desplegable li:hover ul {
+     display:block;  /* al pasar sobre el menu se hace visible  */
+}
+
+.desplegable li a {
+     background:blue;
+     color:#FFF;
+     display:block;
+     padding:14px 14px;
+     margin:2px;
+}
+
+.desplegable li a:hover {
+     background: #C6C085; 
+}
+form{
+position: absolute;
+  top:  15px; 
+  right: 50px;
+}
+ul{
+position: relative;
+  top:  15px; 
+  left: 15px;
+}
+table{
+margin-right:auto;
+margin-left:auto ;
+}
+#foter{
+float:right;font-size: small;
+}
+#icono1 {
+display:block;
+margin-left:850px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQS7 {
+display:block;
+margin-top:50px;
+margin-left:650px;
+z-index: 2;
+position: absolute;
+}
+#textoQS1 {
+display:block;
+margin-top:150px;
+margin-left:620px;
+z-index: 2;
+position: absolute;
+}
+#textoQS2 {
+display:block;
+margin-top:240px;
+margin-left:575px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQS3 {
+display:block;
+margin-top:340px;
+margin-left:720px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#cliente1 {
+display:block;
+margin-top:400px;
+margin-left:575px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQS4 {
+display:block;
+margin-top:940px;
+margin-left:660px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQS5 {
+display:block;
+margin-top:1020px;
+margin-left:640px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#trabajando {
+display:block;
+margin-top:1120px;
+margin-left:575px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQS6 {
+display:block;
+margin-top:1650px;
+margin-left:680px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#resena {
+display:block;
+margin-top:1700px;
+margin-left:575px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#icono {
+display:block;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH1 {
+display:block;
+margin-top:100px;
+margin-left:630px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH2 {
+display:block;
+margin-top:250px;
+margin-left:950px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH3 {
+display:block;
+margin-top:820px;
+margin-left:950px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH4 {
+display:block;
+margin-top:1380px;
+margin-left:850px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#altas1 {
+display:block;
+margin-top:230px;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#bajas1 {
+display:block;
+margin-top:800px;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#reclamaciones1 {
+display:block;
+margin-top:1380px;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH5 {
+display:block;
+margin-top:1900px;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#textoQH6 {
+display:block;
+margin-top:2000px;
+margin-left:700px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#correo2 {
+display:block;
+margin-top:2100px;
+margin-left:600px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+body{
+background: url(fondo3.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#tweet {
+display:block;
+margin-left:1350px;
+padding-left:3%;
+padding:1%;
+z-index: 2;
+position: absolute;
+}
+#fotooficina {
+margin-top:200px;
+display:block;
+margin-left:180px;
+padding-left:3%;
+padding:1%;
+z-index: 1;
+position: absolute;
+}
+#sobreaplicacion {
+margin-top:200px;
+display:block;
+position:fixed;
+margin-left:1250px;
+padding-left:3%;
+padding:1%;
+z-index: 1;
+position: absolute;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E6E6E6;
+   color: black;
+   text-align: center;
+   z-index:5;
+}
+#redessociales {
+margin-top:860px;
+display:block;
+position:fixed;
+margin-left:180px;
+padding-left:3%;
+padding:1%;
+z-index: 1;
+position: absolute;
+}
+
+.login {
+	position:fixed;
+margin-right:1400px;
+margin-top:250px;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+  border: 1px solid #c4c4c4;
+}
+
+h1.login-title {
+  margin: -28px -25px 25px;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #ADADAD;
+  text-align:center;
+  background: #f7f7f7;
+ 
+}
+
+.login-input {
+  width: 285px;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-left:10px;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+  }
+.login-button {
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: blue;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer; 
+  outline:0;
+}
+
+.login-lost
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+
+.login-lost a
+{
+  color:#666;
+  text-decoration:none;
+  font-size:13px;
+}
+
+
+
+.desplegable {
+position: absolute;
+top: 0%;
+z-index:3;
+}
+
+.container {
+	float:right;
+	font-size: small;
+    color: white;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    margin-top: 80%;
+    left: 0;
+	z-index:2;
+}
+.container>p {
+float:right;
+}	
